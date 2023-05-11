@@ -12,6 +12,22 @@ cx = '04f4d3e804cd44a96'  # Replace with your actual Custom Search Engine ID
 
 
 def search_websites(keyword):
+    pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
     search_query = f'intext:"meta name=keywords" {keyword}'
     num_results = 10
 
@@ -39,7 +55,7 @@ def search_websites(keyword):
 
     except Exception as e:
         print(f"An error occurred: {e}")
-
+'''
 '''
     search_query = ''.join(keywords)
     api_key = 'AIzaSyCN6a3LjOvAXZUuRY2hJQmMvpxq6494-pA'  # Replace with your actual Google API key

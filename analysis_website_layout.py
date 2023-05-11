@@ -9,7 +9,7 @@ def analyze_page_titl():
 def analyze_headings():
     # Find all heading tags
     headings = soup.find_all(['h1m  ', 'h2', 'h3', 'h4', 'h5', 'h6'])
-
+    
     # Print the extracted headings
     print("Headings:")
     for heading in headings:
